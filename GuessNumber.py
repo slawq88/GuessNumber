@@ -14,5 +14,4 @@ while GetNumber != findingNumber:
         GetNumber=int(input("Za duża. Strzelaj dalej: "))
     elif GetNumber<findingNumber:
         GetNumber=int(input("Za mała. Spróbuj jeszcze raz. "))
-
 print(f"Gratuluje!!! pomyślałem o {findingNumber}")
